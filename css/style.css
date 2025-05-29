@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -633,7 +637,7 @@ section {
     transform: translateY(-5px);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 950px) {
     .back-to-top {
         right: 10px;
         bottom: 15px;
